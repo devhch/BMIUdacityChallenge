@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/back_app"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginRight="26dp"
+            android:fontFamily="@font/font"
+            android:gravity="start"
+            android:text="YOUR RESULT"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/resultHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="26dp"
+            android:fontFamily="@font/font"
+            android:text="result height"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/card_color"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="36dp"
+                android:paddingBottom="36dp">
+
+                <TextView
+                    android:id="@+id/normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Normal"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/bmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="19.2"
+                    android:textColor="@color/white"
+                    android:textSize="54sp" />
+
+
+                <TextView
+                    android:id="@+id/bmi_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="You have a normal body weight \n\n Good Job!"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+                android:layout_margin="16dp"
+                android:id="@+id/re_calculate_bu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:background="@drawable/bu_cal_back"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:text="RE-CALCULATE"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

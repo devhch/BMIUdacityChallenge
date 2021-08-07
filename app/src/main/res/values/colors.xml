@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00c7da</color>
+    <color name="colorPrimaryDark">#444041</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="back_app">#0A0E21</color>
+    <color name="card_color">#FF1D1F33</color>
+
+    <color name="white">#FFF</color>
+
+    <color name="ripple_color">#f816a463</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BMI</string>
+
+    <string name="subtitle">Udacity Challenge</string>
+</resources>
